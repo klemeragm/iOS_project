@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aula2408" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Congratulations 🥳" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSK-Rd-XvT">
+                                <rect key="frame" x="122.33333333333333" y="481" width="148.33333333333337" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="c8i-j0-VVs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEQ-OT-Tw8">
+                                <rect key="frame" x="16" y="400" width="361" height="52"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJw-ZU-Xu2">
+                                        <rect key="frame" x="0.0" y="0.0" width="180.66666666666666" height="52"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Reset"/>
+                                        <connections>
+                                            <action selector="buttonReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ia4-Fm-Ar4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuP-KO-zKw">
+                                        <rect key="frame" x="180.66666666666663" y="0.0" width="180.33333333333337" height="52"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Count"/>
+                                        <connections>
+                                            <action selector="dipTapCounterBotton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Gn-1S-f9E"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="M2h-eU-45r"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRJ-9N-5gg">
+                                <rect key="frame" x="176" y="352" width="41.333333333333343" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="zUR-b7-oH1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zEQ-OT-Tw8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1VD-Ap-x0k"/>
+                            <constraint firstItem="zEQ-OT-Tw8" firstAttribute="top" secondItem="cRJ-9N-5gg" secondAttribute="bottom" constant="16" id="4px-Na-51m"/>
+                            <constraint firstItem="wSK-Rd-XvT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7NR-Qj-Quo"/>
+                            <constraint firstItem="zEQ-OT-Tw8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XcC-C3-Ufm"/>
+                            <constraint firstItem="zEQ-OT-Tw8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aBV-q7-bg8"/>
+                            <constraint firstItem="cRJ-9N-5gg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jkV-nV-U5I"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonCount" destination="kuP-KO-zKw" id="91x-fo-hs0"/>
+                        <outlet property="buttonReset" destination="UJw-ZU-Xu2" id="lmz-45-K9x"/>
+                        <outlet property="congratsLabel" destination="wSK-Rd-XvT" id="yRe-n5-1cC"/>
+                        <outlet property="counterLabel" destination="cRJ-9N-5gg" id="CsY-JZ-vyT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.21374045801527" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

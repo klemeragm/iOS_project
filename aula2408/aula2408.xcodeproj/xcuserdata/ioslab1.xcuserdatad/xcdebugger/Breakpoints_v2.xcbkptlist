@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "649839C7-D9A8-40FE-9CEA-3A9C73F3B327"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D001598-0614-476D-96B4-96347E0E3DEF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aula2408/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9D001598-0614-476D-96B4-96347E0E3DEF - a8f698210234aa0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.counterLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "9D001598-0614-476D-96B4-96347E0E3DEF - bd5172471c6ee07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.counterLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "9D001598-0614-476D-96B4-96347E0E3DEF - 5532a15415a50c4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.counterLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+               <Location
+                  uuid = "9D001598-0614-476D-96B4-96347E0E3DEF - c39f25d098f2a2f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.counterLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "9D001598-0614-476D-96B4-96347E0E3DEF - 43d514609cf8d93f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; aula2408.ViewController"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+               <Location
+                  uuid = "9D001598-0614-476D-96B4-96347E0E3DEF - 86ae2363427fe2d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;aula2408.ViewController&gt;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D237E4F-7EC3-4629-B5A7-1E1D92B50E83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aula2408/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9D237E4F-7EC3-4629-B5A7-1E1D92B50E83 - 1e786900f23e4469"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.congratsLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "9D237E4F-7EC3-4629-B5A7-1E1D92B50E83 - df748ad26c887065"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.congratsLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "9D237E4F-7EC3-4629-B5A7-1E1D92B50E83 - 68e6349b4910ac4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.congratsLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "9D237E4F-7EC3-4629-B5A7-1E1D92B50E83 - a620bbf1c4e969ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.congratsLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "9D237E4F-7EC3-4629-B5A7-1E1D92B50E83 - 43d514609cf8d95e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; aula2408.ViewController"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "9D237E4F-7EC3-4629-B5A7-1E1D92B50E83 - 86ae2363427fe2b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula2408.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;aula2408.ViewController&gt;"
+                  moduleName = "aula2408"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab1/Library/Mobile%20Documents/com~apple~CloudDocs/24_08/aula2408/aula2408/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
